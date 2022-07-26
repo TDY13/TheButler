@@ -1,0 +1,91 @@
+//
+//  Strings + Extension.swift
+//  InterQR-Internship
+//
+//  Created by Дмитрий Тимофеев on 02.07.2022.
+//
+
+import Foundation
+import UIKit
+
+extension String {
+    enum Text {
+        static let addResident = "Add resident"
+        static let residentName = "Resident name"
+        static let enterResidentName = "Enter resident name"
+        static let mobileNumber = "Mobile number"
+        static let enterResidentNumber = "Enter resident number"
+        static let manager = "Manager"
+        static let hidden = "Hidden"
+        static let enterYourVerificationCode = "Enter your\nverification code"
+        static let pleaseEnterValidCode = "Please, enter valid verification code"
+        static let verify = "Verify"
+        static let myApartName = "My apart name"
+        static let residents = "Residents"
+        static let chooseApartment = "Choose\napartman"
+        static let settings = "Settings"
+        static let logout = "Logout"
+        static let yourDisplayName = "Your display name"
+        static let nameWillBeDisplay = "This name will be displayed everywhere"
+        static let editResidents = "Edit residents"
+        static let editResidentsAndInfo = "Edit the residents and their information"
+        static let doNotDisturb = "Do not disturb"
+        static let youWillNotBeNotified = "You will not be notified of any calls for one day. Auto reset at midnight"
+        static let welcome = "Welcome"
+        static let myDoors = "My doors"
+        static let locked = "Locked"
+        static let home = "Home"
+        static let frontDoor = "Front Door"
+        static let selectYourCountry = "Select your country"
+        static let select = "Select"
+        static let hello = "Hello"
+        static let letsVerifyYourAccount = "Lets verify your \naccount"
+        static let chooseWhatToStartWith = "Choose what to start with"
+        static let email = "Email"
+        static let phoneNumber = "Phone Number"
+        static let enterYourEmailAddress = "Enter your email address"
+        static let exampleEmail = "Example: john.doe@gmail.com"
+        static let plusOne = "+1"
+        static let verificationCodeWillBeSentToYourEmail = "Verification code will be sent to your e-mail"
+        static let continueText = "Continue"
+        static let johnDoe = "John Doe"
+        static let userCode = "503331651"
+        static let enterYourPhoneNumber = "Enter your phone number"
+        static let verificationCodeWillBeSentToYourNumber = "Verification code will be sent to\nyour phone number"
+        static let apple = "Apple"
+    }
+    
+    enum Image {
+        static let close = "Close"
+        static let threeUsers = "3Users"
+        static let heart = "Heart"
+        static let heartRed = "HeartRed"
+        static let backPointer = "BackPointer"
+        static let interQR = "InterQR"
+        static let lock = "Lock"
+        static let RectangleWithShadow = "RectangleWithShadow"
+        static let tick = "Tick"
+        static let edit = "Edit"
+        static let bin = "Bin"
+        static let mask = "Mask"
+        static let apartman = "Apartman"
+        static let nextPointer = "NextPointer"
+        static let gear = "Gear"
+        static let profile = "Profile"
+        static let notification = "Notification"
+        static let setting = "Setting"
+        static let home = "Home"
+        static let gradient = "Gradient"
+        static let password = "Password"
+        static let rightStatus = "RightBlue"
+        static let leftBlue = "LeftBlue"
+        static let shield = "Shield"
+        static let USA = "USA"
+        static let flagPointer = "FlagPointer"
+        static let fullSquere = "FullSquere"
+        static let emptySquere = "EmptySquere"
+        static let pointer = "Pointer"
+        static let onIndicator = "OnIndicator"
+        static let offIndicator = "OffIndicator"
+    }
+}
